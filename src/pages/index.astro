@@ -1,8 +1,9 @@
 ---
 import Page from '../layouts/Page.astro'
+const resume_path = "./Nigel Tan's Resume.pdf"
 ---
 
 <Page title='Home'>
 	<h1>Test!</h1>
-	<a href="Nigel Tan's Resume.pdf" target='_blank'>Resume</a>
+	<a href={resume_path} target='_blank'>Resume</a>
 </Page>
