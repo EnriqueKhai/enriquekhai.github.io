@@ -1,9 +1,8 @@
 ---
 import Page from '../layouts/Page.astro';
-const resume_path = "./Nigel Tan's Resume.pdf";
+import Profile from '../components/Profile.astro';
 ---
 
 <Page title='Home'>
-	<h1>Test!</h1>
-	<a href={resume_path} target='_blank'>Resume</a>
+	<Profile />
 </Page>
